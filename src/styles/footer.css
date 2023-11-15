@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 :root{
@@ -10,7 +12,7 @@
     --textlight: #F0E7E7;
     --textdark: #14141F;
 }
-
+/* Styling container row  footer */
 .footer-row{
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +22,9 @@
     padding-block: 30px;
     background: var(--primary);
 }
+/* End Styling container footer */
 
+/* Styling information footer*/ 
 .information{
     color: var(--textlight);
     display: flex;
@@ -30,5 +34,63 @@
 .information .location{
     display: inline-flex;
     gap: 10px;
+    margin-bottom: 30px;
+}
+
+.sosmed a {
+    display: inline-block;
+    margin-right: 10px;
+    background: var(--button); 
+    padding: 10px; 
+    border-radius: 10px; 
+    transition: background 0.5s;
+}
+.sosmed a i {
+    color: white;
+}
+ .sosmed a:hover {
+    background: var(--textdark);
+}
+/* End Styling information footer*/
+
+/*  styling section information and service */
+.footer-col h3{
+    color: var(--textlight);
     margin-bottom: 10px;
+}
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    color: var(--textlight);
+}
+/*  styling section information and service */
+
+/*  styling section Feedback and Suggestions*/
+.Feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+.Feedback-input{
+    outline: none;
+    height: 40%;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    resize: none;
+}
+#Feedback-send{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    transition: background 0.5s, color 0.5s;
+}
+#Feedback-send:hover{
+    background: var(--button);
+    color: var(--textlight);
+
 }
