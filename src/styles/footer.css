@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 :root{
@@ -101,7 +102,7 @@ footer {
     color: var(--textlight);
 
 }
-/* Untuk ukuran 768px */
+/* responsive setting */
 @media screen and (max-width: 768px){
     .footer-row{
         padding-inline: 70px;
@@ -142,3 +143,4 @@ footer {
         text-align: center;
     }
 }
+/* end responsive setting */
