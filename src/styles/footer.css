@@ -12,11 +12,16 @@
     --textlight: #F0E7E7;
     --textdark: #14141F;
 }
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 /* Styling container row  footer */
 .footer-row{
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
     justify-content: space-between;
     padding-inline: 100px;
     padding-block: 30px;
@@ -40,6 +45,7 @@
 .sosmed a {
     display: inline-block;
     margin-right: 10px;
+    margin-block: 5px;
     background: var(--button); 
     padding: 10px; 
     border-radius: 10px; 
@@ -71,15 +77,16 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 100%;
+    height: auto;
 }
 .Feedback-input{
+    max-height: 100%; 
     outline: none;
-    height: 40%;
     border-radius: 5px;
     font-size: 16px;
     padding: 5px;
     resize: none;
+    overflow: hidden;
 }
 #Feedback-send{
     padding: 10px;
@@ -93,4 +100,45 @@
     background: var(--button);
     color: var(--textlight);
 
+}
+/* Untuk ukuran 768px */
+@media screen and (max-width: 768px){
+    .footer-row{
+        padding-inline: 70px;
+    }
+    .Suggestions{
+        width: 100%;
+    }
+    .Feedback{
+        max-width: 100%;
+    }
+    .Suggestions h3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .footer-row{
+        padding-inline: 50px;
+    }
+    .Suggestions{
+        width: 100%;
+    }
+    .Feedback{
+        max-width: 100%;
+    }
+    .Suggestions h3{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 375px){
+    .footer-row{
+        padding-inline: 30px;
+    }
+    .Suggestions{
+        width: 100%;
+    }
+    .Suggestions h3{
+        text-align: center;
+    }
 }
