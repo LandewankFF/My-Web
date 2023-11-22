@@ -40,6 +40,7 @@
 .sosmed a {
     display: inline-block;
     margin-right: 10px;
+    margin-block: 10px ;
     background: var(--button); 
     padding: 10px; 
     border-radius: 10px; 
@@ -71,15 +72,17 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 100%;
 }
 .Feedback-input{
     outline: none;
-    height: 40%;
+    height: 4rem;
+    max-width: 100%;
     border-radius: 5px;
     font-size: 16px;
     padding: 5px;
     resize: none;
+    overflow: hidden;
+
 }
 #Feedback-send{
     padding: 10px;
@@ -88,9 +91,13 @@
     border-radius: 5px;
     border: none;
     transition: background 0.5s, color 0.5s;
+    width: 100%;
 }
 #Feedback-send:hover{
     background: var(--button);
     color: var(--textlight);
-
 }
+/*  End styling section Feedback and Suggestions*/
+
+
+/* Setting responsive  */
