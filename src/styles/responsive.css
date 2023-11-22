@@ -132,6 +132,17 @@
     .logo{
         gap: 5px;
     }
+    .logo h5{
+        font-size: var(--font-size-body3);
+        font-weight: var(--font-weight-heading);
+    }
+    .logo img{
+        width: 30px;
+        height: 30px;
+    }
+    .navigation{
+        top: 50px;
+    }
 
     /* Footer responsive */
     .footer-row{
