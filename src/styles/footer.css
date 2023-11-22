@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 :root{
@@ -12,11 +13,16 @@
     --textlight: #F0E7E7;
     --textdark: #14141F;
 }
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 /* Styling container row  footer */
 .footer-row{
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
     justify-content: space-between;
     padding-inline: 100px;
     padding-block: 30px;
@@ -41,6 +47,7 @@
     display: inline-block;
     margin-right: 10px;
     margin-block: 10px ;
+    margin-block: 5px;
     background: var(--button); 
     padding: 10px; 
     border-radius: 10px; 
@@ -53,7 +60,6 @@
     background: var(--textdark);
 }
 /* End Styling information footer*/
-
 /*  styling section information and service */
 .footer-col h3{
     color: var(--textlight);
@@ -72,8 +78,10 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    height: auto;
 }
 .Feedback-input{
+    max-height: 100%; 
     outline: none;
     height: 4rem;
     max-width: 100%;
@@ -82,7 +90,6 @@
     padding: 5px;
     resize: none;
     overflow: hidden;
-
 }
 #Feedback-send{
     padding: 10px;
@@ -100,4 +107,16 @@
 /*  End styling section Feedback and Suggestions*/
 
 
-/* Setting responsive  */
+@media screen and (max-width: 375px){
+    .footer-row{
+        padding-inline: 30px;
+    }
+    .Suggestions{
+        width: 100%;
+    }
+    .Suggestions h3{
+        text-align: center;
+    }
+}
+/* end responsive setting */
+
