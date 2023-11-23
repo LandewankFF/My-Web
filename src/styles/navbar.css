@@ -36,7 +36,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     background: var(--primary);
-    padding-inline: 100px;
+    padding-inline: 85px;
     padding-block: 10px;
     width: 100vw;
     align-items: center;
