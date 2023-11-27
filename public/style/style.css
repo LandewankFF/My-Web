@@ -183,7 +183,7 @@ blockquote{
     width: 100%;
 }
 .card span h5{
-    /* text-align: center; */
+    text-align: center;
     color: var(--textlight);
     font-size: var(--font-size-h5);
     margin-bottom: 5px;

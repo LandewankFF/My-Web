@@ -38,7 +38,7 @@ header {
     background: var(--primary);
     padding-inline: 85px;
     padding-block: 10px;
-    width: 100vw;
+    /* width: 100vw; */
     align-items: center;
     justify-content: space-between;
 }
