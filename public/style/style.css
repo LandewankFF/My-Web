@@ -158,7 +158,7 @@ blockquote{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 30px;
     width: fit-content;
     width: 100%;
@@ -173,14 +173,27 @@ blockquote{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    cursor: pointer;
 }
-
+.card:hover{
+    transition: border-color .3s;
+    border: solid 5px;
+    border-color: var(--warning);
+}
 .card span i{
     font-size: 80px;
     color: var(--textlight);
     margin-bottom: 15px;
     text-align: center;
     width: 100%;
+}
+.card span .rotate{
+    transform: rotate(90deg);
+    margin: 0;
+    text-align: center;
+}
+.card span .rotate-ui{
+    margin: 15px 0 5px 0;
 }
 .card span h5{
     text-align: center;
@@ -195,3 +208,24 @@ blockquote{
 }
 
 /* END styling section project */
+
+/* styling technical skills */
+.Technical-Skills{
+    background: var(--secondary);
+}
+.Technical-Skills .logo{
+    display: flex;
+    gap: 20px;
+}
+.Technical-Skills .logo img{
+    width: 64px;
+    height: 64px;
+}
+.image-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+/* styling technical skills */
