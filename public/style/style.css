@@ -126,3 +126,72 @@ blockquote{
 }
 
 /* End styling section intoduction */
+
+/* styling section project */
+.project{
+    background: var(--trird);
+}
+.desc-project{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.desc-project span p{
+    color: var(--warning);
+    font-size: var(--font-size-h5);
+    font-weight: var(--font-weight-heading);
+    text-align: center;
+}
+.desc-project h4{
+    color: var(--textlight);
+    font-size: var(--font-size-h4);
+    text-align: center;
+}
+.desc-project blockquote{
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--font-size-body2);
+}
+.card-project{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: fit-content;
+    width: 100%;
+}
+.card{
+    /* padding-inline: 30px;
+    padding-block: 50px; */
+    display: flex;
+    background: var(--secondary);
+    width: 236px;
+    height: 225px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card span i{
+    font-size: 80px;
+    color: var(--textlight);
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+}
+.card span h5{
+    /* text-align: center; */
+    color: var(--textlight);
+    font-size: var(--font-size-h5);
+    margin-bottom: 5px;
+}
+.card span p{
+    color: var(--textlight);
+    font-size: var(--font-size-body3);
+    text-align: center;
+}
+
+/* END styling section project */
