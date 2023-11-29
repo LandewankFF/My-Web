@@ -234,6 +234,7 @@ blockquote{
 .wrapp-info{
     display: flex;
     width: 100%;
+    margin-top: 15px;
 }
 .half-contact{
     flex: 1 ;
@@ -256,7 +257,7 @@ blockquote{
     transition: background 0.5s;
 }
 .info-detail i:hover{
-    background: var(--textdark);
+    background: var(--secondary);
 }
 .contact{
     background: var(--trird);
@@ -266,7 +267,7 @@ blockquote{
 }
 .row-input {
     display: flex;
-    width: 100%; /* Sesuaikan dengan kebutuhan */
+    width: 100%;
     gap: 50px;
     margin-bottom: 10px
 }
@@ -279,7 +280,7 @@ blockquote{
 div textarea{
     width: 100%;
     height: 150px;
-    padding-left: 10px;
+    padding-inline: 10px;
     padding-top: 10px;
     resize: none;
     margin-bottom: 10px;
