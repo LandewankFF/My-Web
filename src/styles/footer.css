@@ -46,7 +46,7 @@ footer {
 }
 
 .sosmed a {
-    display: inline-block;
+    /* display: inline-block; */
     margin-right: 10px;
     margin-block: 10px ;
     margin-block: 5px;
@@ -109,7 +109,7 @@ footer {
 /*  End styling section Feedback and Suggestions*/
 
 
-@media screen and (max-width: 375px){
+/* @media screen and (max-width: 375px){
     .footer-row{
         padding-inline: 30px;
     }
@@ -119,6 +119,6 @@ footer {
     .Suggestions h3{
         text-align: center;
     }
-}
+} */
 /* end responsive setting */
 

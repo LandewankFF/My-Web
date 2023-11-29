@@ -228,4 +228,77 @@ blockquote{
     align-items: center;
     margin-top: 20px;
 }
-/* styling technical skills */
+/* End styling technical skills */
+
+/* styling contact */
+.wrapp-info{
+    display: flex;
+    width: 100%;
+}
+.half-contact{
+    flex: 1 ;
+}
+.info-detail {
+    display: flex;
+    color: var(--textlight);
+    gap: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.info-detail p{
+    font-size: var(--font-size-h5);
+}
+.info-detail i{
+    background: var(--button); 
+    font-size: 24px;
+    padding: 20px; 
+    border-radius: 10px; 
+    transition: background 0.5s;
+}
+.info-detail i:hover{
+    background: var(--textdark);
+}
+.contact{
+    background: var(--trird);
+}
+.input-message{
+    margin-top: 15px;
+}
+.row-input {
+    display: flex;
+    width: 100%; /* Sesuaikan dengan kebutuhan */
+    gap: 50px;
+    margin-bottom: 10px
+}
+.row-input input {
+    flex: 1;  /* Each div will take up half the width of the container */
+    padding-block: 10px;
+    padding-left: 10px;
+}
+
+div textarea{
+    width: 100%;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+    margin-bottom: 10px;
+    outline: none;
+}
+#message-send{
+    padding-inline: 50px;
+    padding-block: 10px;
+    border-radius: 5px;
+    background: var(--textlight);
+    border: none;
+    color: var(--textdark);
+    font-size: var(--font-size-body1);
+    cursor: pointer;
+}
+#message-send:hover{
+    transition: background 0.5s, color 0.5s;
+    color: var(--textlight);
+    background: var(--button);
+}
+
+/* END styling contact */
