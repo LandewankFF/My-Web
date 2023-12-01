@@ -20,8 +20,9 @@
   <!-- connect to styling css -->
   <link rel="stylesheet" href="/src/styles/navbar.css">
   <link rel="stylesheet" href="/src/styles/footer.css">
-  <link rel="stylesheet" href="/src/styles/responsive.css">
-  <link rel="stylesheet" href="/public/style/style.css">
+  <link rel="stylesheet" href="/src/styles/responav.css"> <!--responsive navbar and footer-->
+  <link rel="stylesheet" href="/public/style.css">
+  <link rel="stylesheet" href="/public/responsive.css">
   <!-- Chat fitur -->
   <!-- <script
     type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "7f046342-22e4-45ab-9e88-0f2d65ee9b51"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();
@@ -61,15 +62,16 @@
         <P>“Life is destiny, keep trying and keep praying for maximum results”</P>
         <div class="line"></div>
       </blockquote>
-      <button id="view-cv">View CV</button>
-      <button id="contact-me">Contact Me</button>
+      <div>
+        <button id="view-cv">View CV</button>
+        <button id="contact-me">Contact Me</button>
+      </div>
     </div>
     <div class="photo">
-      <div class="circle-bg"></div>
       <img src="/public/images/photo1.png" alt="">
     </div>
     <div class="about">
-      <div style="width: 490px;">
+      <div>
         <span>Introduction</span>
         <h4>Student Informatics Engineering Telkom Institute of Technology Purwokerto</h4>
         <p>I'm a student Informatics Engineering at Telkom Purwokerto Institute of Technology semester 5. I have strong
@@ -262,6 +264,8 @@
     </div>
   </footer>
   <!--End Structure Footer -->
+  <!-- Menu  interaction navbar -->
+  <script src="/src/script.js/menu.js"></script>
 </body>
 
 </html>

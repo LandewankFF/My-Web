@@ -1,0 +1,61 @@
+@media screen and (max-width: 1024px){
+    .container, .introduction{
+        padding-inline: 50px;
+        /* padding-block: 30px; */
+    }
+    .introduction {
+        justify-content: space-around;
+    }
+    .about{
+        width: 100%;
+        text-align:center;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .name div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .Technical-Skills .logo{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+} 
+
+@media screen and (max-width: 768px){
+    .wrapp-info{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .row-input-contact {
+        display: flex;
+        width: 100%;
+        gap: 50px;
+        margin-bottom: 10px
+    }
+    .half-contact form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .row-input{
+        flex-direction: column;
+    }
+    .container, .introduction{
+        padding-inline: 20px;
+    }
+    
+} 
+
+/* @media screen and (max-width: 375px){
+    .container{
+        padding-inline: 10px;
+        padding-block: 20px;
+    }
+} */

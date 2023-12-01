@@ -29,6 +29,7 @@ footer {
     padding-inline: 85px;
     padding-block: 30px;
     background: var(--primary);
+    width: 100%;
 }
 /* End Styling container footer */
 
