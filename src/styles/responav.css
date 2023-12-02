@@ -46,6 +46,10 @@ body{
     .Feedback{
         max-width: 100%;
     }
+    .name .btn-call{
+        display: flex;
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -59,11 +63,11 @@ body{
         display: flex;
         cursor: pointer;
     }
-
+    
     .navigation ul li a {
         color: var(--textlight);
     }
-
+    
     .View-work {
         display: none;
     }
@@ -93,11 +97,11 @@ body{
         transition: .5s;
         overflow: hidden;
     }
-
+    
     .navigation.active {
         height: 200px;
     }
-
+    
     .navigation ul {
         /* display: flex; */
         flex-direction: column;
@@ -110,11 +114,11 @@ body{
         transition: .5s;
         opacity: 0;
     }
-
+    
     .navigation.active ul {
         opacity: 1;
     }
-
+    
     /* Footer responsive */
     .footer-row{
         padding-inline: 40px;
@@ -128,6 +132,10 @@ body{
     .Suggestions h3{
         text-align: center;
     }
+    .half-contact form div button{
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 425px){

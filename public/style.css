@@ -284,6 +284,7 @@ blockquote{
     flex: 1;  /* Each div will take up half the width of the container */
     padding-block: 10px;
     padding-left: 10px;
+    width: 100%;
 }
 
 div textarea{
