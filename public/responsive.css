@@ -1,7 +1,7 @@
 @media screen and (max-width: 1024px){
     .container, .introduction{
         padding-inline: 50px;
-        /* padding-block: 30px; */
+        /* padding-block: 30px; */  
     }
     .introduction {
         justify-content: space-around;
@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px){ 
     .row-input{
         flex-direction: column;
     }
@@ -57,10 +57,6 @@
 } 
 
 @media screen and (max-width: 375px){
-    /* .container{
-        padding-inline: 10px;
-        padding-block: 20px;
-    } */
     .info-detail i{
         padding: 10px;
         font-size: var(--font-size-body3);
@@ -68,5 +64,15 @@
     }
     .info-detail p{
         font-size: var(--font-size-body2);
+    }
+}
+@media screen and (max-width: 375px){
+    .name div{
+        width: 100%;
+    }
+    blockquote{
+        color: var(--textlight);
+        margin-block: 15px;
+        width: 100%
     }
 }
