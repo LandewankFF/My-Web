@@ -115,8 +115,8 @@ blockquote{
     height: auto;
     display: block;
 }
-.about span{
-    font-size: var(--font-size-body2);
+.about h5{
+    font-size: var(--font-size-body1);
     color: var(--warning);
 }
 .about h4{
