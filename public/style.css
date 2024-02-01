@@ -97,9 +97,9 @@ blockquote{
     font-weight: var(--font-weight-body);
     background: transparent;
     cursor: pointer;
-    transition:all 0.9s ease;
+    transition:all 0.3s ease;
 }
-#contact-me:hover{
+#contact-me:active{
     border: solid var(--textlight);
     color: var(--textlight);
 }
