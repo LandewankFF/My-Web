@@ -50,7 +50,10 @@
     .container, .introduction{
         padding-inline: 20px;
     }
-    
+    .desc-project blockquote p{
+        text-align: justify;
+        margin: auto;
+    }
 } 
 
 @media screen and (max-width: 375px){

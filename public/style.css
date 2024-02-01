@@ -157,7 +157,6 @@ blockquote{
     text-align: center;
     margin: auto;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
     font-size: var(--font-size-body2);
 }
 .card-project{
