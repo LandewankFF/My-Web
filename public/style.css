@@ -70,7 +70,7 @@ blockquote{
     background: var(--warning);
     margin-block: 20px;
 }
-#view-cv{
+#view-cv, .about a{
     padding-block: 10px;
     padding-inline: 20px;
     background: var(--button);
@@ -83,7 +83,7 @@ blockquote{
     font-weight: var(--font-weight-body);
     cursor: pointer;
 }
-#view-cv:hover{
+#view-cv:hover,.about a:hover{
     background: #03775a;
 }
 
@@ -100,8 +100,8 @@ blockquote{
     transition:all 0.9s ease;
 }
 #contact-me:hover{
-    border: solid var(--button);
-    color: var(--button);
+    border: solid var(--textlight);
+    color: var(--textlight);
 }
 .about{
     padding-bottom: 45px;
@@ -115,9 +115,9 @@ blockquote{
     height: auto;
     display: block;
 }
-.about span, .about a{
-    font-size: var(--font-size-body1);
-    color: var(--warning);    
+.about span{
+    font-size: var(--font-size-body2);
+    color: var(--warning);
 }
 .about h4{
     font-size: var(--font-size-h4);
@@ -304,6 +304,7 @@ div textarea{
     border: none;
     color: var(--textdark);
     font-size: var(--font-size-body1);
+    font-weight: bold;
     cursor: pointer;
 }
 #message-send:hover{

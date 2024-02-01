@@ -53,9 +53,17 @@
     
 } 
 
-/* @media screen and (max-width: 375px){
-    .container{
+@media screen and (max-width: 375px){
+    /* .container{
         padding-inline: 10px;
         padding-block: 20px;
+    } */
+    .info-detail i{
+        padding: 10px;
+        font-size: var(--font-size-body3);
+
     }
-} */
+    .info-detail p{
+        font-size: var(--font-size-body2);
+    }
+}
